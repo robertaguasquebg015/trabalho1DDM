@@ -1,0 +1,195 @@
+import React from 'react';
+
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TouchableOpacity,
+  Linking
+} from 'react-native';
+
+export default function DetalhesFilmes({ route, navigation }) {
+
+
+  const { filmes } = route.params;
+
+
+  return (
+
+    <View style={styles.container}>
+
+
+      <Image
+        source={filmess.imagem}
+        style={styles.imagem}
+      />
+
+
+      <Text style={styles.titulo}>
+        {filmes.nome}
+      </Text>
+
+
+      <Text style={styles.informacao}>
+        Ano: {filmes.ano}
+      </Text>
+
+
+      <Text style={styles.informacao}>
+        Gênero: {filmes.genero}
+      </Text>
+
+
+      <Text style={styles.sinopse}>
+        {albuns.review}
+      </Text>
+
+
+      {/* Abre o álbum no Spotify */}
+
+      <TouchableOpacity
+
+        style={styles.botao}
+
+        onPress={() => Linking.openURL(albuns.url)}
+
+      >
+
+        <Text style={styles.textoBotao}>
+        ler sobre o filme
+        </Text>
+
+      </TouchableOpacity>
+
+
+      {/* Volta para a tela anterior */}
+
+      <TouchableOpacity
+
+        style={styles.botaoVoltar}
+
+        onPress={() => navigation.goBack()}
+
+      >
+
+        <Text style={styles.textoBotao}>
+          Voltar
+        </Text>
+
+      </TouchableOpacity>
+
+
+    </View>
+
+  );
+
+}
+
+
+const styles = StyleSheet.create({
+
+  container: {
+
+    flex: 1,
+
+    alignItems: 'center',
+
+    padding: 25,
+
+    backgroundColor: '#74b66b'
+
+  },
+
+
+  imagem: {
+
+    width: 300,
+
+    height: 300,
+
+    borderRadius: 10,
+
+    marginBottom: 20
+
+  },
+
+
+  titulo: {
+
+    fontSize: 26,
+
+    fontWeight: 'bold',
+
+    textAlign: 'center',
+
+    marginBottom: 10
+
+  },
+
+
+  informacao: {
+
+    fontSize: 17,
+
+    marginBottom: 5
+
+  },
+
+
+  sinopse: {
+
+    fontSize: 16,
+
+    textAlign: 'justify',
+
+    marginTop: 15,
+
+    marginBottom: 25
+
+  },
+
+
+  botao: {
+
+    backgroundColor: '#6fac5f',
+
+    width: '100%',
+
+    padding: 15,
+
+    borderRadius: 10,
+
+    alignItems: 'center',
+
+    marginBottom: 10
+
+  },
+
+
+  botaoVoltar: {
+
+    backgroundColor: '#555555',
+
+    width: '100%',
+
+    padding: 15,
+
+    borderRadius: 10,
+
+    alignItems: 'center'
+
+  },
+
+
+  textoBotao: {
+
+    color: '#fff',
+
+    fontWeight: 'bold',
+
+    fontSize: 16
+
+  }
+
+});
