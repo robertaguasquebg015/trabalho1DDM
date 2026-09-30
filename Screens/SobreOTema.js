@@ -11,20 +11,16 @@ export default function SobreOTema() {
       </Text>
 
       <Text style={styles.texto}>
-        A música é uma forma de expressão artística presente
-        em diferentes culturas e períodos históricos.
+        O projeto é uma lista de filmes!
       </Text>
 
       <Text style={styles.texto}>
-        Os artistas utilizam diferentes gêneros e estilos
-        musicais para produzir obras que podem representar
-        sentimentos, experiências e diferentes contextos.
+        Os personagens são os melhores de cada filme/série
       </Text>
 
       <Text style={styles.texto}>
         Neste aplicativo, o tema é apresentado por meio de
-        um catálogo de álbuns e artistas, permitindo consultar
-        informações sobre diferentes trabalhos musicais.
+        uma lista dos filmes que eu mais gosto.
       </Text>
 
     </View>

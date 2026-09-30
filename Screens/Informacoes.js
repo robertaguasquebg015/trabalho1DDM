@@ -11,7 +11,7 @@ export default function Informacoes() {
       </Text>
 
       <Text style={styles.texto}>
-        O aplicativo é uma lista de filmes e séries
+        O aplicativo é uma lista de filmes e séries criado por Roberta Guasque, do 6 info!
       </Text>
 
       <Text style={styles.texto}>
