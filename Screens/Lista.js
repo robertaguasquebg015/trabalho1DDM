@@ -9,7 +9,7 @@ const albuns = [
       genero: 'romance',
       imagem: require('../assets/guts.png'),
       review: "melhor filme do mundo",
-      url: 'https://open.spotify.com/intl-pt/album/1D06fz3cuob62ysTS8k6gu?si=4CmbMLRRQG-na5dfiVSWZghttps://open.spotify.com/intl-pt/album/1D06fz3cuob62ysTS8k6gu?si=4CmbMLRRQG-na5dfiVSWZg',
+      url: 'https://open.spotify.com/intl-pt/filme/1D06fz3cuob62ysTS8k6gu?si=4CmbMLRRQG-na5dfiVSWZghttps://open.spotify.com/intl-pt/filme/1D06fz3cuob62ysTS8k6gu?si=4CmbMLRRQG-na5dfiVSWZg',
     },
     {
       id: 3,
@@ -18,7 +18,7 @@ const albuns = [
       genero: 'rom-com',
       imagem: require('../assets/norman.jpg'),
       review: "volte a vida heath ledger",
-      url: 'https://open.spotify.com/intl-pt/album/5XpEKORZ4y6OrCZSKsi46A?si=E5YyH4--SC29oFp-rJ5X8Q',
+      url: 'https://open.spotify.com/intl-pt/filme/5XpEKORZ4y6OrCZSKsi46A?si=E5YyH4--SC29oFp-rJ5X8Q',
     },
     {
       id: 5,
@@ -27,7 +27,7 @@ const albuns = [
       genero: 'Romance',
       imagem: require('../assets/fromthe.jpg'),
       review: "its no use jo we gotta have it out",
-      url: 'https://open.spotify.com/intl-pt/album/3xxkjx6Hgl8sWpNfuqhHtD?si=q0B7X8XXRg6lTSR-01zb3g',
+      url: 'https://open.spotify.com/intl-pt/filme/3xxkjx6Hgl8sWpNfuqhHtD?si=q0B7X8XXRg6lTSR-01zb3g',
     },
     {
       id: 9,
@@ -36,7 +36,7 @@ const albuns = [
       genero: 'rom-com',
       imagem: require('../assets/therise.jpg'),
       review: "YOURE SOOOOOOO VAIN!!!!!",
-      url: 'https://open.spotify.com/intl-pt/album/0EiI8ylL0FmWWpgHVTsZjZ?si=nB0KnbAgRCCZayz6atNUhw',
+      url: 'https://open.spotify.com/intl-pt/filme/0EiI8ylL0FmWWpgHVTsZjZ?si=nB0KnbAgRCCZayz6atNUhw',
     },
     {
       id: 11,
@@ -45,7 +45,7 @@ const albuns = [
       genero: 'coming of age, mãe e filha',
       imagem: require('../assets/you.png'),
       review: "lorelai e café",
-      url: 'https://open.spotify.com/intl-pt/album/2NSzwyYvQvdOQAoEjrlw9c',
+      url: 'https://open.spotify.com/intl-pt/filme/2NSzwyYvQvdOQAoEjrlw9c',
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ const albuns = [
       genero: 'série de médico',
       imagem: require('../assets/bewi.jpg'),
       review: "todo mundo morre",
-      url: 'https://open.spotify.com/intl-pt/album/1hmlhl74JfLyUqmqtCwvFb?si=SwR4e1eJRLqWjRIE6oD0UA',
+      url: 'https://open.spotify.com/intl-pt/filme/1hmlhl74JfLyUqmqtCwvFb?si=SwR4e1eJRLqWjRIE6oD0UA',
     },
     {
       id: 4,
@@ -63,7 +63,7 @@ const albuns = [
       genero: 'Drama',
       imagem: require('../assets/ego.jpg'),
       review: "tristeza",
-      url: 'https://open.spotify.com/intl-pt/album/3MROTtttK946gHaTkXeP8b?si=sbJ67OELTUCmES4qIm_FnQ',
+      url: 'https://open.spotify.com/intl-pt/filme/3MROTtttK946gHaTkXeP8b?si=sbJ67OELTUCmES4qIm_FnQ',
     },
     {
       id: 6,
@@ -72,7 +72,7 @@ const albuns = [
       genero: 'série de médico',
       imagem: require('../assets/email.jpg'),
       review: "te amo samira mohaan e frank langdon",
-      url: 'https://open.spotify.com/intl-pt/album/2g4aJTa5ejGpp0O0GKzWAQ?si=5E2FClFgSLy8cnUghjDUiw',
+      url: 'https://open.spotify.com/intl-pt/filme/2g4aJTa5ejGpp0O0GKzWAQ?si=5E2FClFgSLy8cnUghjDUiw',
     },
     {
       id: 7,
@@ -81,7 +81,7 @@ const albuns = [
       genero: 'fantasia',
       imagem: require('../assets/love.jpg'),
       review: "coitado do harry",
-      url: 'https://open.spotify.com/intl-pt/album/6rLBGig7awR8nRMt0suKbv?si=hGaGfywQQM-qRX9z87Jejw',
+      url: 'https://open.spotify.com/intl-pt/filme/6rLBGig7awR8nRMt0suKbv?si=hGaGfywQQM-qRX9z87Jejw',
     },
     {
       id: 8,
@@ -99,7 +99,7 @@ const albuns = [
       genero: 'romance',
       imagem: require('../assets/jagged.png'),
       review: "amo muito",
-      url: 'https://open.spotify.com/intl-pt/album/5Ap3F8CxjjsQKZGASDcHNA?si=kR5fL2z6QeyplSqvTSLqyQ',
+      url: 'https://open.spotify.com/intl-pt/filme/5Ap3F8CxjjsQKZGASDcHNA?si=kR5fL2z6QeyplSqvTSLqyQ',
     },
 ];
 
@@ -108,7 +108,7 @@ export default function Lista({navigation}){
         <TouchableOpacity
             style = {styles.listaItem}
             onPress = {() => 
-            navigation.navigate('DetalhesAlbum',
+            navigation.navigate('Detalhesfilme',
                 {albuns: item }
              )}
           >
